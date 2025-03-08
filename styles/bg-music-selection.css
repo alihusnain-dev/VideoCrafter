@@ -1,0 +1,397 @@
+.bg {
+    font-family: "Montserrat", sans-serif;
+}
+
+.delete {
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #864af9;
+    color: white;
+    border: none;
+}
+
+.delete-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* Or any specific width you need */
+}
+
+.slider {
+    -webkit-appearance: none;
+    /* Removes default styling */
+    appearance: none;
+    margin: 0;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #864AF9 0%, #864AF9 50%, #D9D9D9 50%, #D9D9D9 100%);
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* WebKit browsers (Chrome, Safari) */
+.slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #864AF9;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px;
+    /* Adjust based on track height */
+    position: relative;
+    z-index: 1;
+}
+
+/* fix */
+/* .video-js .vjs-time-control{display: block;} */
+
+.video-js .vjs-current-time {
+    display: block;
+}
+
+.video-js .vjs-remaining-time {
+    display: none;
+}
+
+.not-present {
+    visibility: hidden;
+    transition: 0.05s ease;
+}
+
+.present {
+    /* opacity: 1; */
+    visibility: visible;
+    transition: 0.05s ease;
+}
+
+.bg-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 99;
+    background: transparent;
+}
+
+.time {
+    padding: 12px 24px;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    color: #7f7f7f;
+}
+
+.bg-content-sub {
+    width: 600px;
+    padding: 40px 24px;
+    background: white;
+    border: 1px solid #0000004D;
+    border-radius: 8px;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+}
+
+.cont-sub {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.bg-button {
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #864AF9;
+    border: 1px solid #864AF9;
+    padding: 5px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bg-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bg-heading-span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+.bg-video {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+}
+
+#video-container-box {
+    display: flex;
+    width: 373px;
+    height: auto;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+#videoPreviewContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#my-video {
+    width: 100%;
+}
+
+.file-upload-container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    gap: 48px;
+    flex-direction: column;
+}
+
+#musicContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.uploadmp3 {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: column;
+    font-family: "Montserrat" !important;
+}
+
+.uploadmp3-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#clear-btn {
+    background-color: #864af9;
+    color: white;
+    border: none;
+}
+
+.choose-file-sty {
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px dashed #19191980;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    gap: 14px;
+}
+
+.fileInput {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+.output {
+    font-size: 16px;
+    font-weight: 380;
+    line-height: 23.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    /* color: #7f7f7f; */
+}
+
+.text {
+    font-family: "Montserrat" !important;
+}
+
+.text-span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+}
+
+.start-main-div {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.start-sub-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+#from_when {
+    padding: 12px 24px;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+}
+
+.start-text {
+    width: 100%;
+    text-align: left;
+}
+
+#to_when {
+    padding: 12px 24px;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+}
+
+.Font-Size-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.mp3-volume {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#SliderValue {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000B2;
+}
+
+.Font-Size-Slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36.89px;
+}
+
+#mySlider {
+    width: 100%;
+}
+
+#submit_form {
+    width: 100%;
+    display: none;
+    justify-content: flex-end;
+}
+
+#proceed {
+    margin-top: 27px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-proceed {
+    text-decoration: none;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right,
+            #864AF9 0%,
+            #864AF9 calc(var(--value) * 1%),
+            #D9D9D9 calc(var(--value) * 1%),
+            #D9D9D9 100%);
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    --value: 50;
+    /* Default value matches initial state (50%) */
+}
+
+.slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #864AF9;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Add Firefox support */
+.slider::-moz-range-track {
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: #864AF9;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,669 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.highlight-p {
+    margin-bottom: 7px;
+    /* margin-top: -6px; */
+    color: #000000B3;
+    line-height: 135%;
+}
+
+.portfolio-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 24px 1fr 24px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns by default */
+    gap: 24px;
+    max-width: 1083px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.portfolio-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.portfolio-box .portfolio-head h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #9400FF;
+    padding: 10px;
+    width: 34px;
+    color: white;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.portfolio-box .portfolio-head .border {
+    border-bottom: 1px solid #cccccc;
+    width: 297px;
+    margin: 0 auto;
+}
+
+
+
+.sub-text h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 135%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sub-text p {
+    color: #000000B3;
+    line-height: 135%;
+    text-align: center;
+    max-width: 100%;
+    ;
+}
+
+.portfolio-bottom-text {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 135%;
+    color: #000000B3;
+    margin-bottom: 66px;
+    margin-top: 48px;
+}
+
+.fa-check {
+    color: #9400FF;
+}
+
+.hiw-element-text p {
+    max-width: 80%;
+}
+
+.hew {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 15px;
+}
+
+
+.dimensions-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    gap: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.typography-for-mobile {
+    display: none;
+}
+
+.aspect-box {
+    width: 60px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #d9d9d9;
+    font-size: 14px;
+    border-radius: 4px;
+    /* Rounded corners */
+    text-align: center;
+}
+
+.aspect-box.tall {
+    height: 115px;
+}
+
+.hew-t {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 15px;
+}
+
+.hew-t p {
+    max-width: 86%;
+}
+
+
+.portfolio-border {
+    border-bottom: 1px solid #cccccc;
+    max-width: 1077px;
+    margin: 0 auto;
+    margin-bottom: 67px;
+}
+
+.main-eature-container {
+    margin-bottom: -20px;
+}
+
+.feature-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    width: 255px;
+    height: 280px;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px 23px;
+    text-align: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: #a000ff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto 10px;
+    margin-bottom: 24px;
+}
+
+.cta-main {
+    display: none;
+}
+
+
+
+.feature-card h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #000000B3;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+.circle-border {
+    border-bottom: 1px solid #cccccc;
+    width: 210px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.tutorial-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: auto !important;
+}
+
+.ptop-text-mobile {
+    display: none;
+}
+
+.ptop-p-mobile {
+    display: none;
+}
+
+/* Title Styling */
+.tutorial-title {
+    font-size: 36px;
+    /* Large title size */
+    font-weight: 700;
+    /* Bold weight */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.title-bold {
+    color: #000000;
+    /* Black text */
+}
+
+.title-highlight {
+    color: #8A2BE2;
+}
+
+/* Subtitle Styling */
+.tutorial-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    max-width: 800px;
+    line-height: 135%;
+    margin-bottom: 48px;
+}
+
+
+
+/* Video Placeholder */
+.video-placeholder {
+    width: 894px;
+    height: 580px;
+    background-color: #D3D3D3;
+    /* Light gray for the placeholder */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.tutorial-border {
+    border: 1px solid #cccccc;
+    width: 1077px;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 62px;
+}
+
+
+
+/* Adjust grid for screen sizes below 1000px */
+@media (max-width: 1000px) {
+    .portfolio-grid {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on screens below 1000px */
+    }
+
+    .portfolio-box {
+        padding: 16px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .portfolio-box .portfolio-head h1 {
+        font-size: 22px;
+        padding: 8px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .portfolio-box .portfolio-head .border {
+        width: 250px;
+    }
+}
+
+/* Adjust grid for screens below 768px */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        /* 1 column on screens below 768px */
+    }
+
+    .portfolio-box {
+        padding: 12px;
+        /* Adjust padding further */
+    }
+
+    .portfolio-box .portfolio-head h1 {
+        font-size: 20px;
+        padding: 6px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .portfolio-box .portfolio-head .border {
+        width: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .portfolio-box {
+        max-width: 80%;
+        /* width: 300px; */
+        margin: 0 auto;
+        /* height: 280px; */
+    }
+
+    .sub-text p {
+        max-width: 84%;
+        margin: 0 auto;
+    }
+
+    .portfolio-bottom-text {
+        text-align: center;
+        max-width: 94%;
+        /* width: 300px; */
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 135%;
+        color: #000000B3;
+        margin-bottom: 0px;
+        margin-top: 48px;
+        text-transform: capitalize;
+    }
+
+
+    .howitwork {
+        background-color: #FAF3FF;
+    }
+
+    .feature-card {
+        width: 350px;
+        height: 280px;
+    }
+
+    .feature-card p {
+        width: 87%;
+        margin: 0 auto;
+    }
+
+    .tutorial-title {
+        font-size: 24px;
+    }
+
+    .tutorial-description {
+        font-size: 16px;
+        max-width: 317px;
+        padding: 5px;
+    }
+
+    .video-placeholder {
+        width: 334px;
+        height: 390px;
+        margin: 0 auto;
+    }
+
+    .tutorial-container {
+        height: auto;
+    }
+
+    .ptop-text {
+        display: none;
+    }
+
+    .ptop-text-mobile {
+        display: block;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: capitalize;
+        width: 360px;
+        height: 68px;
+        margin-bottom: 24px;
+    }
+
+    .ptop-p {
+        display: none;
+    }
+
+    .ptop-p-mobile {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000B3;
+        text-transform: capitalize;
+        width: 344px;
+        margin-bottom: 0px;
+        line-height: 135%;
+        margin-top: 11px;
+    }
+
+    .for-m {
+        margin-bottom: 0px;
+    }
+
+    .p-cards-grid-item {
+        width: 340px;
+        padding: 24px;
+    }
+
+    .cta-content-wrapper {
+        display: none !important;
+    }
+
+    .for-marg-c {
+        margin-bottom: 40px;
+    }
+
+    .typography-for-desktop {
+        display: none;
+    }
+
+    .cta {
+        background-color: #966ae728;
+        margin: 0 auto;
+        height: auto !important;
+    }
+
+    .cta-main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        /* Centers content horizontally */
+        background-color: #fff;
+        border: 2px solid #cccccc;
+        border-radius: 10px;
+        padding: 1rem;
+        max-width: 330px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cta-box {
+        text-align: center;
+    }
+
+    .cta-box h1 {
+        width: 343px;
+        color: #8A2BE2;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .cta-box p {
+        margin: 0 auto;
+        width: 297px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000000B3;
+        text-align: center;
+        line-height: 135%;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 48px;
+        height: 48px;
+    }
+
+    .for-mobile {
+        margin-bottom: 0px !important;
+    }
+
+    .highlight-p {
+        margin-top: -0px;
+    }
+
+    .howitworks {
+        gap: 32px;
+    }
+
+    .portfoliotext h2 {
+        margin-top: 40px !important;
+    }
+
+    .portfoliotext {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-bottom-text p {
+        margin: 0 auto;
+        width: 90%;
+        /* margin-bottom: 40px; */
+    }
+
+    #for-m {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-border {
+        margin-bottom: 40px;
+    }
+
+    .tutorial-border {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .for-margg {
+        margin-top: 24px;
+        width: 80%;
+    }
+
+    .for-margin {
+        margin-top: -5px;
+    }
+
+    #heroButton {
+        margin-top: 48px !important;
+    }
+
+    .arrow {
+        top: 14px;
+    }
+   
+    .typography-for-mobile {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .cta-content-wrapper {
+        display: none;
+    }
+
+    #pricing {
+        margin-top: 48px;
+    }
+
+}
+
+
+@media screen and (max-width:450px) {
+
+.PlaceholderContainer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-items: flex-start;
+    min-height: 260px;
+}
+
+.howitworks {
+ 
+    height: 2500px;
+}
+}
+@media screen and (max-width:390px) {
+    .feature-card {
+        width: 311px;
+        margin: 0 auto;
+    }
+
+    .p-cards-grid-item {
+        width: 314px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .dimensions-container {
+        max-width: 85%;
+    }
+
+    .feature-card {
+        width: 260px;
+    }
+
+    .p-cards-grid-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .feature-card {
+        width: 295px;
+        margin: 0 auto;
+    }
+}

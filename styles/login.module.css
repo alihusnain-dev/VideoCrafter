@@ -1,0 +1,204 @@
+/* styles/login.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    /* Prevent background image from overflowing */
+}
+
+.backgroundImage {
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    height: auto;
+    filter: blur(400px);
+    opacity: 0.35;
+    /* Use decimal for opacity */
+}
+
+.formContainer {
+    width: 400px;
+    padding: 40px 32px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px -4px rgba(12, 12, 13, 0.05),
+        0px 16px 32px -4px rgba(12, 12, 13, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    row-gap: 32px;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.logoSvg {
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+}
+
+.formGroup {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 8px; */
+}
+
+.label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.passwordInput {
+    position: relative;
+}
+
+.toggleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 24px;
+    bottom: 12px;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    color: #864AF9;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.button {
+    background-color: #864AF9;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #763acf;
+}
+
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.1px;
+    letter-spacing: 0.02em;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.input {
+    font-family: "Montserrat", sans-serif;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input:focus {
+    border-color: #888;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #864AF9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.3px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    transition: 0.3s ease;
+    margin-bottom: 48px;
+}
+
+.forgot-password:hover {
+    color: #6b4fc1;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #864AF9;
+    color: white;
+    width: 100%;
+}
+
+.button:hover {
+    background: #6b4fc1;
+}

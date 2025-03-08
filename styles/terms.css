@@ -1,0 +1,32 @@
+.container-two {
+    width: 80%;
+    margin: 70px auto;
+    padding: 20px;
+    
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  p {
+    margin: 15px 0;
+  }
+
+  .ul-lst {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+
+  .ul-lst li {
+    margin: 10px 0;
+  }
+
+  .link-st {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .link-st:hover {
+    text-decoration: underline;
+  }
